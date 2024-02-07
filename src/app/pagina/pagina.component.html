@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- GOOGLE FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <!-- FIM GOOGLE FONTES -->
+  <!-- BOOTSTRAP ICONS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <!-- FIM BOOTSTRAP ICONS -->
+  <link rel="stylesheet" href="pagina.component.css">
+  <link rel="icon" href="assets/letra-r.png">
+  <script src="menu.js" defer></script>
+
+  <title>Ruan Fonseca Desenvolvedor</title>
+
+</head>
+
+<body>
+
+  <header>
+    <div class="interface">
+      <div class="logo">
+        <a href="" id="inicio">
+          <img src="assets/letra-r.png" alt="Ruan Fonseca Dev">
+        </a>
+      </div><!--logo-->
+
+      <nav class="menu-desktop">
+        <ul>
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#especialidades">Especialidades</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+
+
+      <div class="btn-abrir-menu" id="btn-menu">
+        <i class="bi bi-list"></i>
+      </div>
+
+      <div class="menu-mobile" id="menu-mobile">
+        <div class="btn-fechar">
+          <i class="bi bi-x-lg"></i>
+        </div>
+
+        <nav>
+          <ul>
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#especialidades">Especialidades</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </nav>
+
+      </div><!--menu-mobile-->
+      <div class="overlay-menu" id="overlay-menu"></div>
+    </div><!--interface-->
+  </header>
+
+  <main>
+    <section class="topo-do-site">
+      <div class="interface">
+        <div class="flex">
+          <div class="txt-topo-site">
+            <h1>TRANSFORMANDO IDEIAS EM REALIDADE DIGITAL<span>.</span></h1>
+            <p>Criatividade e inovação andam lado a lado. Com uma combinação única de design impactante,
+              funcionalidade intuitiva e otimização para resultados, estou pronto para criar a presença
+              online dos seus sonhos.</p>
+
+            <div class="btn-contato">
+              <a href="#contato">
+                <button>Entre em contato</button>
+              </a>
+            </div>
+          </div><!--txt-topo-site-->
+
+          <div class="img-topo-site">
+            <img class="img-perfil" src="assets/imagemPerfil.jpg" alt="">
+          </div><!--img-topo-site-->
+        </div><!--flex-->
+      </div><!--interface-->
+    </section><!--topo-do-site-->
+
+    <section class="especiliadades" id="especialidades">
+      <div class="interface">
+        <h2 class="titulo">TECNOLOGIAS QUE <span>TRABALHO.</span></h2>
+        <div class="flex">
+          <div class="especialidades-box">
+
+            <img class="especialidadesimg" src="assets/Angularjs.png">
+            <h3>Front End</h3>
+            <p>Em aplicações web no front end utilizo o AngularJS 16 com typescript com Arquitetura MVVM </p>
+          </div><!--especialidades-box-->
+
+
+
+          <div class="especialidades-box">
+
+            <img class="especialidadesimg" src="assets/Spring.png">
+
+            <h3>Back End</h3>
+            <p>Em aplicações web no Back end utilizo a linguagem Java em conjunto com o framework SpringBoot com
+              Arquitetura Hexagonal.
+            </p>
+          </div><!--especialidades-box-->
+
+
+          <div class="especialidades-box">
+
+            <img class="especialidadesimg" src="assets/banco.png">
+            <h3>Banco de dados </h3>
+            <p>Banco de dados relacional PostgreSql</p>
+          </div><!--especialidades-box-->
+
+
+
+          <div class="especialidades-box">
+            <img class="especialidadesimgdocker" src="assets/rabbitmq.png">
+            <h3>Broker</h3>
+            <p>Sistemas de filas RabbitMQ</p>
+          </div><!--especialidades-box-->
+
+          <div class="especialidades-box">
+            <img class="especialidadesimgdocker" src="assets/docker.png">
+            <h3>Infra Estrutura</h3>
+            <p>Utilizo o Docker para criar os containers das aplicações e EC2's da AWS</p>
+          </div><!--especialidades-box-->
+
+
+        </div><!--flex-->
+      </div><!--interface-->
+    </section><!--especiliadades-->
+
+    <section class="sobre" id="sobre">
+      <div class="interface">
+        <div class="flex">
+          <div class="img-sobre">
+            <img class="img-perfil" src="assets/imagemPerfil.jpg" alt="">
+          </div><!--img-sobre-->
+
+          <div class="txt-sobre">
+            <h2>MUITO PRAZER, <span>SOU RUAN FONSECA.</span></h2>
+            <p>Aluno do Curso de Ciências da Computação na Universidade Estadual Do Rio de Janeiro,tenho 26 anos,minha
+              trajetória na área de programação
+              começou no ano de 2020 quando desenvolvi meu primeiro programa ainda na linguagem C,desde então venho
+              criado projetos pessoais afim de desenvolver minha
+              lógica de programação e conhecimentos em frameworks.
+            </p>
+            <p>Atualmente faço parte da Equipe de desenvolvimento de um projeto de pesquisa chamado "Calango",onde
+              projetamos um aplicativo educacional com uma abordagem gamificada vontado para alunos do
+              campos,possibilitando assim
+              que os mesmos tenham a possibilidade
+              resolverem questionários e questões que os professores disponibilizem através de seus smartphones em
+              qualquer lugar.
+            </p>
+            <div class="btn-social">
+              <a href="https://www.instagram.com/ruanfonseca_97/" target="_blank"><button><i class="bi bi-instagram"></i></button></a>
+              <a href="#"><button><i class="bi bi-youtube"></i></button></a>
+              <a href="https://www.linkedin.com/in/ruan-fonseca-028b30173/" target="_blank"><button><i
+                    class="bi bi-linkedin"></i></button></a>
+
+            </div><!--btn-social-->
+
+          </div><!--txt-sobre-->
+          <div class="btn-contato curriculo">
+            <a href="https://drive.google.com/file/d/1ZlxdqhxiPpiGNuZzPkTRZh_-jKhUOeE-/view?usp=sharing"
+              target="_blank">
+              <button>Download CV</button>
+            </a>
+          </div>
+        </div><!--flex-->
+      </div><!--interface-->
+    </section><!--sobre-->
+
+    <section class="portfolio" id="projetos">
+      <div class="interface">
+        <h2 class="titulo">MEU <span>PORTFÓLIO.</span></h2>
+        <div class="flex">
+          <a href="https://elbritsolutions.com/#inicio" target="_blank"><div class="img-port" style="background-image: url(assets/elbritProject.png);">
+            <div class="overlay">Site Desenvolvido para Elbrit Solutions</div>
+          </div></a>
+
+            <a href="https://github.com/Ruanfonseca/Sistema_servicePro" target="_blank">
+                    <div class="img-port" style="background-image: url(assets/servicePro1.png);">
+                      <div class="overlay">Sistema de Tickets </div>
+                    </div>
+          </a>
+
+          <a href="https://github.com/Ruanfonseca/questionario" target="_blank">
+          <div class="img-port" style="background-image: url(assets/calango.png);">
+            <div class="overlay">Painel Administrativo do Sistema Calango</div>
+          </div>
+          </a>
+        </div><!--flex-->
+      </div><!--interface-->
+    </section><!--portfolio-->
+
+    <section class="formulario" id="contato">
+      <div class="interface">
+        <h2 class="titulo">FALA <span>COMIGO.</span></h2>
+
+        <form (ngSubmit)="onEnvioDeEmail()" class="form">
+          <input type="text" [(ngModel)]="Templatemail.nome" name="nome" id="nome"  placeholder="Seu nome completo:" required>
+          <input type="email" [(ngModel)]="Templatemail.email" name="email" id="email" placeholder="Seu e-mail:" required>
+          <input type="text" [(ngModel)]="Templatemail.telefone" name="celular" id="celular" placeholder="Seu celular:">
+          <textarea [(ngModel)]="Templatemail.mensagem" name="mensagem" id="mensagem" placeholder="Sua mensagem" required></textarea>
+          <div class="btn-enviar"><input type="submit" value="ENVIAR"></div>
+
+          <div class="menseagemRetorno" *ngIf="retornoCadastro"
+            [ngClass]="{'retorno-sucesso': retornoCadastro === 'success', 'retorno-erro': retornoCadastro !== 'success'}" id="">
+            {{ mensagemRetorno }}
+          </div>
+
+        </form>
+      </div><!--interface-->
+    </section><!--formulario-->
+
+  </main>
+  <div class="go-top" id="goTop">
+    <a href="#inicio" title="Voltar ao Topo" class="bi bi-arrow-up-circle-fill"></a>
+  </div>
+
+
+  <footer>
+    <div class="interface">
+      <div class="line-footer">
+        <div class="flex">
+          <div class="logo-footer">
+            <img src="assets/letra-r.png" href="#inicio" alt="Logotipo Ruan fonseca">
+          </div><!--logo-footer-->
+          <div class="btn-social">
+            <a href="https://www.instagram.com/ruanfonseca_97/" target="_blank"><button><i
+                  class="bi bi-instagram"></i></button></a>
+            <a href="#"><button><i class="bi bi-youtube"></i></button></a>
+            <a href="https://www.linkedin.com/in/ruan-fonseca-028b30173/" target="_blank"><button><i
+                  class="bi bi-linkedin"></i></button></a>
+          </div><!--btn-social-->
+        </div>
+      </div><!--line-footer-->
+
+      <div class="line-footer borda">
+        <p>
+
+          <a class="footer-link" href="https://github.com/Ruanfonseca" target="_blank">&copy;2024 Ruan Fonseca |
+            Desenvolvedor </a>
+        </p>
+      </div><!--line-footer-->
+    </div><!--interface-->
+  </footer>
+
+</body>
+
+</html>
